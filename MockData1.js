@@ -76,25 +76,4 @@ export default [
         type: 'image',
         content: 'https://img.gmz88.com/uploadimg/image/20190808/20190808160239_79715.jpg'
     },
-    {
-        uName: '小左',// 名字
-        uType: 0, // 0 - 对方；1 - 自己
-        time: "09:11",
-        type: 'text',
-        content: '嗯嗯，我要学习了，下回聊，拜拜'
-    },
-    {
-        uName: '小右右右',// 名字
-        uType: 1,
-        time: "09:12",
-        type: 'system',
-        content: '已撤回一条消息',
-    },
-    {
-        uName: '小右右右',// 名字
-        uType: 1, // 0 - 对方；1 - 自己
-        time: "09:13",
-        type: 'text',
-        content: '很高兴认识你，再见'
-    },
 ]
