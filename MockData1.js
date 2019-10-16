@@ -28,7 +28,7 @@ export default [
         content: '好巧巧巧巧巧巧巧巧巧巧巧巧，我也是'
     },
     {
-        uName: '小右右右',// 名字
+        uName: '小右右右',
         uType: 1,
         time: "09:04",
         type: 'system',
@@ -49,8 +49,8 @@ export default [
         content: '我在上海呢，发一张我的照片给你，我们交个朋友吧',
     },
     {
-        uName: '小左',// 名字
-        uType: 0, // 0 - 对方；1 - 自己
+        uName: '小左',
+        uType: 0,
         time: "09:07",
         type: 'image',
         content: 'https://img.gmz88.com/uploadimg/image/20190808/20190808160239_33218.jpg'
@@ -63,15 +63,15 @@ export default [
         content: '已撤回一条消息',
     },
     {
-        uName: '小右右右',// 名字
-        uType: 1, // 0 - 对方；1 - 自己
+        uName: '小右右右',
+        uType: 1,
         time: "09:09",
         type: 'text',
         content: '好呀，我也发张我的照片吧，现在我们是朋友啦，以后一起学习啊'
     },
     {
-        uName: '小右右右',// 名字
-        uType: 1, // 0 - 对方；1 - 自己
+        uName: '小右右右',
+        uType: 1,
         time: "09:10",
         type: 'image',
         content: 'https://img.gmz88.com/uploadimg/image/20190808/20190808160239_79715.jpg'
