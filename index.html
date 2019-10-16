@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RC TEST</title>
+    <link type="text/css" href="./Flow/css/index.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div id="flow"></div>
+    <script type="module">
+        import Flow from './Flow/js/index.js' // 引入消息流组件
+        import dataList1 from './MockData1.js' // 引入 Mock 数据1
+        import dataList2 from './MockData2.js' // 引入 Mock 数据2
+
+        const flow = new Flow('flow', {
+            dataList: dataList2,
+        })
+        flow.add(dataList1)
+    </script>
+</body>
+
+</html>

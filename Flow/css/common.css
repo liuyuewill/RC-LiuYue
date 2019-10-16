@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+.flow{
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: #ddd;
+    padding: 10px;
+    height: 600px;
+    overflow: scroll;
+}
+.block{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.time{
+    letter-spacing: 1px;
+    color: #675e5e;
+    font-size: 14px;
+    margin: 10px;
+    align-self: center;
+    text-align: center;
+}
+.leftMsg{
+    background-color: #fff;
+    align-self: flex-start;
+}
+.rightMsg{
+    background-color: #b0e46e;
+    align-self: flex-end;
+}
+.leftImg{
+    align-self: flex-start;
+}
+.rightImg{
+    align-self: flex-end;
+}
